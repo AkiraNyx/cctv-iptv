@@ -1,0 +1,227 @@
+{
+  "verified_at": "2026-11-20",
+  "network": "中国福建厦门移动 IPv4",
+  "channels": {
+    "CCTV-1": {
+      "width": 1280,
+      "height": 720,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": null,
+      "color_primaries": null,
+      "video_mbps": 1.49
+    },
+    "CCTV-2": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.45
+    },
+    "CCTV-3": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.42
+    },
+    "CCTV-4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 4.0
+    },
+    "CCTV-5": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 8.02
+    },
+    "CCTV-5+": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.49
+    },
+    "CCTV-6": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 4.0
+    },
+    "CCTV-7": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.49
+    },
+    "CCTV-8": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 4.02
+    },
+    "CCTV-9": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 4.0
+    },
+    "CCTV-10": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.45
+    },
+    "CCTV-11": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 4.0
+    },
+    "CCTV-12": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.53
+    },
+    "CCTV-13": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 3.98
+    },
+    "CCTV-14": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.49
+    },
+    "CCTV-15": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": null,
+      "color_primaries": null,
+      "video_mbps": 4.01
+    },
+    "CCTV-16": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.51
+    },
+    "CCTV-17": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "hevc",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 5.5
+    },
+    "CCTV-4K": {
+      "width": 3840,
+      "height": 2160,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "video_mbps": 15.01
+    },
+    "CCTV-16-4K": {
+      "width": 3840,
+      "height": 2160,
+      "fps": 25,
+      "field_order": "progressive",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_transfer": null,
+      "color_primaries": null,
+      "video_mbps": 16.01
+    }
+  },
+  "playlist_sha256": "59560fffa0b58689f36e645e778639dea21e3c78569c11a7845176bf402f82cd"
+}

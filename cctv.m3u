@@ -1,0 +1,42 @@
+#EXTM3U
+# 2026-11-20 福建移动 IPv4｜20 频道实测快照
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1 综合" group-title="央视频道",CCTV-1 综合
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227243/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2 财经" group-title="央视频道",CCTV-2 财经
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV-3 综艺" group-title="央视频道",CCTV-3 综艺
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227445/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-4" tvg-name="CCTV-4 中文国际" group-title="央视频道",CCTV-4 中文国际
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227225/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5 体育" group-title="央视频道",CCTV-5 体育
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227283/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+ 体育赛事" group-title="央视频道",CCTV-5+ 体育赛事
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225939/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6 电影" group-title="央视频道",CCTV-6 电影
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227260/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7 国防军事" group-title="央视频道",CCTV-7 国防军事
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225927/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8 电视剧" group-title="央视频道",CCTV-8 电视剧
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227266/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-9" tvg-name="CCTV-9 纪录" group-title="央视频道",CCTV-9 纪录
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225820/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-10" tvg-name="CCTV-10 科教" group-title="央视频道",CCTV-10 科教
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225931/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11 戏曲" group-title="央视频道",CCTV-11 戏曲
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227233/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-12" tvg-name="CCTV-12 社会与法" group-title="央视频道",CCTV-12 社会与法
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225932/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13 新闻" group-title="央视频道",CCTV-13 新闻
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227237/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14 少儿" group-title="央视频道",CCTV-14 少儿
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225933/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15 音乐" group-title="央视频道",CCTV-15 音乐
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227270/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16 奥林匹克" group-title="央视频道",CCTV-16 奥林匹克
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227125/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17 农业农村" group-title="央视频道",CCTV-17 农业农村
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221226986/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV-4K 超高清" group-title="央视频道",CCTV-4K 超高清
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227510/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-id="CCTV-16-4K" tvg-name="CCTV-16 奥林匹克 4K" group-title="央视频道",CCTV-16 奥林匹克 4K
+http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227162/index.m3u8?servicetype=1
