@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T02:39:27+00:00",
+  "checked_at": "2026-11-26T01:53:36+00:00",
   "network": "GitHub-hosted runner",
   "fujian_playback_reverified": false,
   "playlist_sha256": "59560fffa0b58689f36e645e778639dea21e3c78569c11a7845176bf402f82cd",
@@ -7,7 +7,7 @@
   "feeds": {
     "best-fan": {
       "status": "downloaded",
-      "selected": 50
+      "selected": 53
     },
     "iptv-org": {
       "status": "downloaded",
@@ -36,9 +36,9 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 7.97,
-        "sample_seconds": 10.0,
-        "decoded_frames": 244
+        "video_mbps": 7.99,
+        "sample_seconds": 10.16,
+        "decoded_frames": 229
       },
       "ip_versions": [
         4
@@ -59,9 +59,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 0.5,
-        "sample_seconds": 2.88,
-        "decoded_frames": 72
+        "video_mbps": 0.44,
+        "sample_seconds": 4.8,
+        "decoded_frames": 120
       },
       "ip_versions": [
         4
@@ -71,14 +71,14 @@
     {
       "channel": "CCTV-9",
       "source": "best-fan",
-      "url": "http://119.125.131.84:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1",
+      "url": "http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-9",
       "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/10/live.m3u8",
+      "url": "http://120.40.39.246:352/newlive/live/hls/10/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -103,9 +103,9 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 7.89,
-        "sample_seconds": 10.08,
-        "decoded_frames": 251
+        "video_mbps": 7.98,
+        "sample_seconds": 9.96,
+        "decoded_frames": 239
       },
       "ip_versions": [
         4
@@ -121,13 +121,13 @@
         "width": 1280,
         "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 0.6,
-        "sample_seconds": 20.0,
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.52,
+        "sample_seconds": 16.67,
         "decoded_frames": 500
       },
       "ip_versions": [
@@ -138,7 +138,7 @@
     {
       "channel": "CCTV-8",
       "source": "best-fan",
-      "url": "http://124.228.160.3:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "url": "http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -148,6 +148,29 @@
       "url": "http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225927/index.m3u8?servicetype=1",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 000)"
+    },
+    {
+      "channel": "CCTV-7",
+      "source": "best-fan",
+      "url": "http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 50.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.96,
+        "sample_seconds": 20.0,
+        "decoded_frames": 482
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-7",
@@ -163,9 +186,9 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 7.86,
-        "sample_seconds": 9.88,
-        "decoded_frames": 240
+        "video_mbps": 7.95,
+        "sample_seconds": 9.92,
+        "decoded_frames": 223
       },
       "ip_versions": [
         4
@@ -186,7 +209,7 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 0.94,
+        "video_mbps": 1.21,
         "sample_seconds": 20.0,
         "decoded_frames": 500
       },
@@ -198,14 +221,7 @@
     {
       "channel": "CCTV-7",
       "source": "best-fan",
-      "url": "http://119.125.131.84:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
-      "channel": "CCTV-7",
-      "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/8/live.m3u8",
+      "url": "http://219.147.245.238:25480/newlive/live/hls/8/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -215,6 +231,29 @@
       "url": "http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227260/index.m3u8?servicetype=1",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 000)"
+    },
+    {
+      "channel": "CCTV-6",
+      "source": "best-fan",
+      "url": "http://112.123.243.37:50085/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 50.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.94,
+        "sample_seconds": 20.0,
+        "decoded_frames": 489
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-6",
@@ -230,9 +269,9 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 8.15,
+        "video_mbps": 7.97,
         "sample_seconds": 10.0,
-        "decoded_frames": 231
+        "decoded_frames": 242
       },
       "ip_versions": [
         4
@@ -242,48 +281,9 @@
     {
       "channel": "CCTV-6",
       "source": "best-fan",
-      "url": "http://69.30.245.50/live/cctv6.m3u8",
-      "status": "video_decoded",
-      "video": {
-        "width": 1280,
-        "height": 720,
-        "codec": "h264",
-        "fps": 30.0,
-        "pixel_format": "yuv420p",
-        "field_order": null,
-        "color_transfer": "bt709",
-        "color_primaries": "bt709",
-        "video_mbps": 0.64,
-        "sample_seconds": 24.63,
-        "decoded_frames": 739
-      },
-      "ip_versions": [
-        4
-      ],
-      "higher_than_snapshot": false
-    },
-    {
-      "channel": "CCTV-6",
-      "source": "best-fan",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009",
-      "status": "video_decoded",
-      "video": {
-        "width": 1280,
-        "height": 720,
-        "codec": "h264",
-        "fps": 25.0,
-        "pixel_format": "yuv420p",
-        "field_order": null,
-        "color_transfer": "bt709",
-        "color_primaries": "bt709",
-        "video_mbps": 0.89,
-        "sample_seconds": 20.0,
-        "decoded_frames": 500
-      },
-      "ip_versions": [
-        4
-      ],
-      "higher_than_snapshot": false
+      "url": "http://101.66.199.175:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "status": "unverified",
+      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-6",
@@ -291,6 +291,13 @@
       "url": "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
       "status": "unverified",
       "reason": "HTTP 500"
+    },
+    {
+      "channel": "CCTV-6",
+      "source": "iptv-org",
+      "url": "http://69.30.245.50/live/cctv6.m3u8",
+      "status": "unverified",
+      "reason": "download failed (curl 7, HTTP 000)"
     },
     {
       "channel": "CCTV-5+",
@@ -309,7 +316,14 @@
     {
       "channel": "CCTV-5+",
       "source": "best-fan",
-      "url": "http://124.228.160.3:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "url": "http://110.72.84.44:808/hls/14/index.m3u8",
+      "status": "unverified",
+      "reason": "download failed (curl 28, HTTP 000)"
+    },
+    {
+      "channel": "CCTV-5+",
+      "source": "best-fan",
+      "url": "http://219.147.245.238:25480/newlive/live/hls/6/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -341,42 +355,26 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 7.96,
-        "sample_seconds": 10.08,
-        "decoded_frames": 250
+        "video_mbps": 8.13,
+        "sample_seconds": 9.88,
+        "decoded_frames": 228
       },
       "ip_versions": [
         4
       ],
-      "higher_than_snapshot": false
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-5",
       "source": "best-fan",
-      "url": "http://221.7.175.154:8445/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "status": "video_decoded",
-      "video": {
-        "width": 1920,
-        "height": 1080,
-        "codec": "h264",
-        "fps": 25.0,
-        "pixel_format": "yuv420p",
-        "field_order": null,
-        "color_transfer": "bt709",
-        "color_primaries": "bt709",
-        "video_mbps": 7.95,
-        "sample_seconds": 10.0,
-        "decoded_frames": 225
-      },
-      "ip_versions": [
-        4
-      ],
-      "higher_than_snapshot": false
+      "url": "http://101.66.195.24:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "status": "unverified",
+      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-5",
       "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/6/live.m3u8",
+      "url": "http://110.72.84.64:808/hls/38/index.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -415,9 +413,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.94,
+        "video_mbps": 7.7,
         "sample_seconds": 10.04,
-        "decoded_frames": 249
+        "decoded_frames": 235
       },
       "ip_versions": [
         4
@@ -427,14 +425,30 @@
     {
       "channel": "CCTV-4",
       "source": "best-fan",
-      "url": "http://119.125.131.84:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
+      "url": "http://183.129.255.66:8480/hls/4/index.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.61,
+        "sample_seconds": 10.0,
+        "decoded_frames": 250
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-4",
       "source": "best-fan",
-      "url": "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8",
+      "url": "http://222.223.41.27:8888/hls/4/index.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -459,9 +473,32 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
+        "video_mbps": 8.08,
+        "sample_seconds": 10.0,
+        "decoded_frames": 246
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-3",
+      "source": "best-fan",
+      "url": "http://101.66.195.24:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
         "video_mbps": 8.0,
-        "sample_seconds": 9.96,
-        "decoded_frames": 228
+        "sample_seconds": 12.16,
+        "decoded_frames": 299
       },
       "ip_versions": [
         4
@@ -474,17 +511,17 @@
       "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
       "status": "video_decoded",
       "video": {
-        "width": 1920,
-        "height": 1080,
+        "width": 1280,
+        "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 3.24,
-        "sample_seconds": 21.0,
-        "decoded_frames": 525
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.21,
+        "sample_seconds": 16.67,
+        "decoded_frames": 500
       },
       "ip_versions": [
         4
@@ -492,18 +529,34 @@
       "higher_than_snapshot": false
     },
     {
-      "channel": "CCTV-3",
-      "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/3/live.m3u8",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
       "channel": "CCTV-2",
       "source": "fujian_snapshot",
       "url": "http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221225923/index.m3u8?servicetype=1",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 000)"
+    },
+    {
+      "channel": "CCTV-2",
+      "source": "best-fan",
+      "url": "http://183.223.157.33:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 50.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.67,
+        "sample_seconds": 10.0,
+        "decoded_frames": 225
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-2",
@@ -519,9 +572,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.87,
+        "video_mbps": 7.37,
         "sample_seconds": 10.0,
-        "decoded_frames": 240
+        "decoded_frames": 225
       },
       "ip_versions": [
         4
@@ -560,26 +613,19 @@
         "width": 1280,
         "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 0.54,
-        "sample_seconds": 20.0,
-        "decoded_frames": 500
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.41,
+        "sample_seconds": 25.0,
+        "decoded_frames": 750
       },
       "ip_versions": [
         4
       ],
       "higher_than_snapshot": false
-    },
-    {
-      "channel": "CCTV-2",
-      "source": "best-fan",
-      "url": "http://119.125.131.84:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&down=1",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-17",
@@ -591,7 +637,7 @@
     {
       "channel": "CCTV-17",
       "source": "best-fan",
-      "url": "http://74.91.26.218:82/live/cctv17hd.m3u8",
+      "url": "http://183.129.255.66:8480/hls/18/index.m3u8",
       "status": "video_decoded",
       "video": {
         "width": 1920,
@@ -602,21 +648,37 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 3.03,
-        "sample_seconds": 20.68,
-        "decoded_frames": 517
+        "video_mbps": 7.52,
+        "sample_seconds": 11.32,
+        "decoded_frames": 283
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-17",
+      "source": "best-fan",
+      "url": "http://74.91.26.218:82/live/cctv17hd.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1280,
+        "height": 720,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 0.22,
+        "sample_seconds": 20.0,
+        "decoded_frames": 500
       },
       "ip_versions": [
         4
       ],
       "higher_than_snapshot": false
-    },
-    {
-      "channel": "CCTV-17",
-      "source": "best-fan",
-      "url": "http://218.13.170.98:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-17",
@@ -641,6 +703,36 @@
     },
     {
       "channel": "CCTV-16",
+      "source": "best-fan",
+      "url": "http://104.152.209.49:8181/720p/cctv16.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1280,
+        "height": 720,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 1.15,
+        "sample_seconds": 20.0,
+        "decoded_frames": 500
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": false
+    },
+    {
+      "channel": "CCTV-16",
+      "source": "best-fan",
+      "url": "http://219.147.245.238:25480/newlive/live/hls/17/live.m3u8",
+      "status": "unverified",
+      "reason": "download failed (curl 28, HTTP 200)"
+    },
+    {
+      "channel": "CCTV-16",
       "source": "iptv-org",
       "url": "http://74.91.26.218:82/live/cctv16hd.m3u8",
       "status": "unverified",
@@ -656,18 +748,41 @@
     {
       "channel": "CCTV-15",
       "source": "best-fan",
-      "url": "http://74.91.26.218:82/live/cctv15hd.m3u8",
+      "url": "http://123.160.235.204:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
       "status": "video_decoded",
       "video": {
         "width": 1920,
         "height": 1080,
+        "codec": "h264",
+        "fps": 50.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.68,
+        "sample_seconds": 10.08,
+        "decoded_frames": 227
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-15",
+      "source": "best-fan",
+      "url": "http://74.91.26.218:82/live/cctv15hd.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1280,
+        "height": 720,
         "codec": "h264",
         "fps": 25.0,
         "pixel_format": "yuv420p",
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 3.45,
+        "video_mbps": 0.22,
         "sample_seconds": 20.0,
         "decoded_frames": 500
       },
@@ -679,14 +794,7 @@
     {
       "channel": "CCTV-15",
       "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/16/live.m3u8",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
-      "channel": "CCTV-15",
-      "source": "best-fan",
-      "url": "http://49.70.189.149:60001/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "url": "http://118.122.144.115:8888/newlive/live/hls/16/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -711,9 +819,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.75,
-        "sample_seconds": 9.96,
-        "decoded_frames": 232
+        "video_mbps": 7.89,
+        "sample_seconds": 10.0,
+        "decoded_frames": 243
       },
       "ip_versions": [
         4
@@ -749,17 +857,17 @@
       "url": "http://74.91.26.218:82/live/cctv14hd.m3u8",
       "status": "video_decoded",
       "video": {
-        "width": 1920,
-        "height": 1080,
+        "width": 1280,
+        "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 3.25,
-        "sample_seconds": 19.76,
-        "decoded_frames": 494
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.41,
+        "sample_seconds": 16.67,
+        "decoded_frames": 500
       },
       "ip_versions": [
         4
@@ -776,6 +884,29 @@
     {
       "channel": "CCTV-13",
       "source": "best-fan",
+      "url": "http://183.129.255.66:8480/hls/14/index.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 50.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 7.5,
+        "sample_seconds": 10.56,
+        "decoded_frames": 264
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-13",
+      "source": "best-fan",
       "url": "http://123.160.235.204:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
       "status": "video_decoded",
       "video": {
@@ -787,9 +918,32 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.93,
+        "video_mbps": 7.39,
         "sample_seconds": 10.04,
-        "decoded_frames": 249
+        "decoded_frames": 225
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-13",
+      "source": "best-fan",
+      "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 5.29,
+        "sample_seconds": 8.0,
+        "decoded_frames": 200
       },
       "ip_versions": [
         4
@@ -802,15 +956,15 @@
       "url": "http://74.91.26.218:82/live/cctv13hd.m3u8",
       "status": "video_decoded",
       "video": {
-        "width": 1920,
-        "height": 1080,
+        "width": 1280,
+        "height": 720,
         "codec": "h264",
         "fps": 25.0,
         "pixel_format": "yuv420p",
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 3.3,
+        "video_mbps": 0.59,
         "sample_seconds": 20.0,
         "decoded_frames": 500
       },
@@ -818,20 +972,6 @@
         4
       ],
       "higher_than_snapshot": false
-    },
-    {
-      "channel": "CCTV-13",
-      "source": "best-fan",
-      "url": "http://101.66.199.74:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
-      "channel": "CCTV-13",
-      "source": "best-fan",
-      "url": "http://101.66.198.117:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-13",
@@ -861,9 +1001,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.82,
-        "sample_seconds": 10.2,
-        "decoded_frames": 241
+        "video_mbps": 7.87,
+        "sample_seconds": 10.0,
+        "decoded_frames": 245
       },
       "ip_versions": [
         4
@@ -884,7 +1024,7 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 0.95,
+        "video_mbps": 1.1,
         "sample_seconds": 20.0,
         "decoded_frames": 500
       },
@@ -896,14 +1036,14 @@
     {
       "channel": "CCTV-12",
       "source": "best-fan",
-      "url": "http://101.66.198.220:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "url": "http://112.123.243.37:50085/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
       "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 000)"
+      "reason": "download failed (curl 28, HTTP 200)"
     },
     {
       "channel": "CCTV-12",
       "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/13/live.m3u8",
+      "url": "http://120.40.39.246:352/newlive/live/hls/13/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -928,9 +1068,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 7.53,
-        "sample_seconds": 10.04,
-        "decoded_frames": 231
+        "video_mbps": 7.9,
+        "sample_seconds": 9.92,
+        "decoded_frames": 233
       },
       "ip_versions": [
         4
@@ -946,14 +1086,14 @@
         "width": 1280,
         "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 1.63,
-        "sample_seconds": 20.0,
-        "decoded_frames": 500
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.3,
+        "sample_seconds": 25.0,
+        "decoded_frames": 750
       },
       "ip_versions": [
         4
@@ -963,7 +1103,7 @@
     {
       "channel": "CCTV-11",
       "source": "best-fan",
-      "url": "http://113.57.140.161:10081/newlive/live/hls/12/live.m3u8",
+      "url": "http://112.123.243.37:50085/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
     },
@@ -995,9 +1135,9 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 8.21,
-        "sample_seconds": 9.76,
-        "decoded_frames": 231
+        "video_mbps": 8.03,
+        "sample_seconds": 9.92,
+        "decoded_frames": 241
       },
       "ip_versions": [
         4
@@ -1006,7 +1146,7 @@
     },
     {
       "channel": "CCTV-10",
-      "source": "iptv-org",
+      "source": "best-fan",
       "url": "http://74.91.26.218:82/live/cctv10hd.m3u8",
       "status": "video_decoded",
       "video": {
@@ -1018,7 +1158,7 @@
         "field_order": null,
         "color_transfer": null,
         "color_primaries": null,
-        "video_mbps": 0.74,
+        "video_mbps": 1.5,
         "sample_seconds": 20.0,
         "decoded_frames": 500
       },
@@ -1030,16 +1170,9 @@
     {
       "channel": "CCTV-10",
       "source": "best-fan",
-      "url": "http://101.66.199.74:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "url": "http://112.123.243.37:50085/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
-      "channel": "CCTV-10",
-      "source": "best-fan",
-      "url": "http://101.66.198.220:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
-      "status": "unverified",
-      "reason": "download failed (curl 28, HTTP 000)"
     },
     {
       "channel": "CCTV-1",
@@ -1047,6 +1180,29 @@
       "url": "http://zterr.hvs.fj.chinamobile.com:6060/PLTV/88888888/224/3221227243/index.m3u8?servicetype=1",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 000)"
+    },
+    {
+      "channel": "CCTV-1",
+      "source": "best-fan",
+      "url": "http://183.129.255.66:8480/hls/1/index.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "codec": "h264",
+        "fps": 25.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "video_mbps": 7.77,
+        "sample_seconds": 11.64,
+        "decoded_frames": 291
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
     },
     {
       "channel": "CCTV-1",
@@ -1062,32 +1218,9 @@
         "field_order": null,
         "color_transfer": "bt709",
         "color_primaries": "bt709",
-        "video_mbps": 8.03,
-        "sample_seconds": 10.0,
-        "decoded_frames": 240
-      },
-      "ip_versions": [
-        4
-      ],
-      "higher_than_snapshot": true
-    },
-    {
-      "channel": "CCTV-1",
-      "source": "best-fan",
-      "url": "http://218.13.139.26:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "status": "video_decoded",
-      "video": {
-        "width": 1920,
-        "height": 1080,
-        "codec": "h264",
-        "fps": 25.0,
-        "pixel_format": "yuv420p",
-        "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 7.41,
-        "sample_seconds": 9.84,
-        "decoded_frames": 231
+        "video_mbps": 7.73,
+        "sample_seconds": 10.24,
+        "decoded_frames": 250
       },
       "ip_versions": [
         4
@@ -1100,17 +1233,40 @@
       "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
       "status": "video_decoded",
       "video": {
-        "width": 1920,
-        "height": 1080,
+        "width": 1280,
+        "height": 720,
         "codec": "h264",
-        "fps": 25.0,
+        "fps": 30.0,
         "pixel_format": "yuv420p",
         "field_order": null,
-        "color_transfer": null,
-        "color_primaries": null,
-        "video_mbps": 3.12,
-        "sample_seconds": 20.68,
-        "decoded_frames": 517
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.41,
+        "sample_seconds": 25.0,
+        "decoded_frames": 750
+      },
+      "ip_versions": [
+        4
+      ],
+      "higher_than_snapshot": true
+    },
+    {
+      "channel": "CCTV-1",
+      "source": "iptv-org",
+      "url": "http://69.30.245.50/live/cctv1.m3u8",
+      "status": "video_decoded",
+      "video": {
+        "width": 1280,
+        "height": 720,
+        "codec": "h264",
+        "fps": 30.0,
+        "pixel_format": "yuv420p",
+        "field_order": null,
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "video_mbps": 0.41,
+        "sample_seconds": 25.0,
+        "decoded_frames": 750
       },
       "ip_versions": [
         4
@@ -1120,16 +1276,9 @@
     {
       "channel": "CCTV-1",
       "source": "best-fan",
-      "url": "http://222.240.44.42:12810/newlive/live/hls/1/live.m3u8",
+      "url": "http://118.122.144.115:8888/newlive/live/hls/1/live.m3u8",
       "status": "unverified",
       "reason": "download failed (curl 28, HTTP 200)"
-    },
-    {
-      "channel": "CCTV-1",
-      "source": "iptv-org",
-      "url": "http://69.30.245.50/live/cctv1.m3u8",
-      "status": "unverified",
-      "reason": "response is not an HLS manifest"
     }
   ]
 }
